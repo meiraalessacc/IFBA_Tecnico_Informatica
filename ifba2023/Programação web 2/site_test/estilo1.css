@@ -1,0 +1,24 @@
+#container{
+	height:auto;
+	width:auto;
+	border:2px solid black;
+	display:grid;
+	display:grid;
+	grid-template-columns:25% 25% 25% 5%;
+	grid-template-rows:20% 5% 20% 20% 10%;
+	 						
+	grid-template-areas:"topo topo topo topo"
+	                    "menu menu menu menu"
+                        "prin prin prin lat"
+                        "sec sec sec lat"
+                        "rod rod rod rod"; 
+	justify-content:center;
+align-content:center;
+}
+img{
+	max-width:100%;
+}
+header{
+	background-color:red;
+	grid-area: topo;		
+}
