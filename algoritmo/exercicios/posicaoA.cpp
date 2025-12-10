@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+main(){
+	setlocale(LC_ALL,"portuguese");
+	
+	int i, a[29],b[29];
+	for(i = 0; i < 29; i++){
+		printf("\n Digite o valor A posição %i :",i);
+		scanf("%i",&a[i]);
+		
+		if(a[i]%2==0){b[i]=a[i]*2;}
+		else{
+		b[i]=a[i]*3;
+		printf("Valor B posição %i = %i",i,b[i]);}
+		(fflush);
+	}
+	
+	system("pause");
+	return(0);
+}
+//erro no ao dar print//

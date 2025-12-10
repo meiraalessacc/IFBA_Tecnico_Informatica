@@ -1,0 +1,34 @@
+
+.paginaprodutos{
+	background-image:none;
+}
+/*imagens dos produtos*/
+.produtos{
+	margin:20px;
+	padding:0;
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+}
+.produtos img{
+	width:420px;
+	height:323px;
+}
+ul .produtos img{
+	width:520px;
+	height:323px;
+}
+/*texto 1*/
+main h1{
+	margin:20px;
+	font-family:um;
+	font-size:22px;
+	text-align:center;
+	color:black;
+}
+/*titulo*/
+h1.titulo{
+	color:#47745c;
+	font-size:55px;
+}
+/*rodapé*/

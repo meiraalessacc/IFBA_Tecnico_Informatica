@@ -1,0 +1,28 @@
+body {
+    background-color: #b5c5ea;
+}
+h1{
+    font-family: 'verdana', sans-serif;
+    color:PaleTurquoise;
+	font-weight: 500;
+	line-height: 150px; 
+	letter-spacing:1px;
+}
+div {
+	  font-family: 'verdana', sans-serif;
+    color:PaleTurquoise;
+	font-weight: 500;
+	line-height: 150px; 
+	letter-spacing:1px;
+	background-color: #476ECC;
+    width: 400px;
+    height: 400px;
+	background-color: #2a427a;
+    margin: 10px 30px 20px 5px;
+	padding: 30px 50px;
+	border-width: 6px;
+	border-style: dotted;
+	border-color: #f00;
+	border-left-style:dashed;
+	border-right-style:dashed;
+}

@@ -1,0 +1,55 @@
+main{
+	background-color:LightCoral;
+	display:flex;
+	justify-content:space-around;
+}
+nav{
+	background-color:IndianRed;
+}
+nav ul{
+	display:flex;
+	list-style:none; /*retirando os marcadores de lista*/
+	width:700px;
+	justify-content:space-evely; /*distribui os elementos atraves do eixo principal*/
+}
+header{
+	background-color:Crimson;
+	height:50px;
+	display:flex; /*--- comparo o modelo de visualização pai para a vizualização flexivel(conterners)---*/
+	justify-content:space-between;/*distribui os elementos atraves do eixo adjacennte ou auxiliar do container*/
+	align-items:center;/*distribui os elementos atraves do eixo adjacente ou auxiliar do container*/
+}
+selection{
+	background-color:Salmon;
+	width:60%;
+}
+selection div{
+	display:flex;
+	flex-wrap:wrap;/*permite que quebrem a linha caso não caiba no container*/
+	justify-content:space-evely;
+}
+article{
+	background-color:Brown;
+	width:
+}
+aside{
+	background-color:DarkSalmon;
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+aside div{
+	background-color:white;
+	width:80%;
+	height:80px;
+	margin:5px;
+}
+footer{
+	background-color:Tomato;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;/* o tamanho dos elementos no seu culculo até a borda*/
+}

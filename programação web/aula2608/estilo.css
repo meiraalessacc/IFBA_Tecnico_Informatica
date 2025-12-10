@@ -1,0 +1,27 @@
+body{
+	background-color:white;
+}
+table{
+	border-collapse:collapse;
+}
+table td, table th{
+	border:2px solid black;
+}
+thead{
+	text-align:center;
+	background-color:DeepSkyBlue;
+}
+tbody tr:nth-child(odd){
+	background-color:Gainsboro;
+	text-align:left;
+}
+.turmas{
+	background-color:Gold;
+}
+tfoot{
+	background-color:Orange;
+	text-align:right;
+}
+tfoot td{
+		text-align:left;
+}

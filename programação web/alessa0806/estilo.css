@@ -1,0 +1,32 @@
+body{
+	background-image: linear-gradient(35deg,Lavender,RosyBrown); 
+background-image: linear-gradient(top right,Lavender, ); 
+background-image: linear-gradient(100deg,Lavender ,);
+background-image: linear-gradient(225deg,Lavender ,);
+}
+#divsuperior{
+	background-color:Linen;
+	width:10%;
+	height:20;
+	margin:auto;
+	border:30px;
+	padding:10px;
+	border-radius:120px 20px 120px 20px;
+	box-shadow:110px ;
+		box-shadow:10px 20px 30px Ivory ;
+	
+}
+#divinferior{
+	background-color:Lavender;
+	width:10%;
+	height:20;
+	margin:auto;
+	border:30px;
+	padding:10px;
+	border-radius:120px 20px 120px 20px;
+	box-shadow:10px 20px 30px Ivory ;
+}
+.titulo{
+	font-family: 'Homemade Apple', cursive;
+		text-align:center;
+}

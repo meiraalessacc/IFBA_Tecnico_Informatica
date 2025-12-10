@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title> Atividade 1-Unidade 2(Alessa)</title>
+<meta charset="utf-8">
+<link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<!--questao um-->
+<h1 class="titulo">Titulo da Página</h1>
+<div id="conteudo">
+<p>Qualquer tipo de conteudo aqui</p>
+</div>
+<!--tipo radio-->
+<fieldset>
+<legend>Genero:</legend>
+		<input type="radio" name="sexo" value="Masculino" id="sexomasc">
+		<label for="sexomasc"> Masculino </label>
+		
+		<input type="radio" name="sexo" value="Feminino" id="sexofem">
+		<label for="sexofem"> Feminino </label>
+</fieldset>
+<!--tipo checkbox-->
+<fieldset> <legend> Disciplinas Selecionadas: </legend>
+	<label>
+	<input type="checkbox" value="matematica" name="diciplinas">
+	Matematica
+	</label>
+	<label>
+	<input type="checkbox" value="portugues" name="diciplinas">
+	Portugues
+	</label>
+</fieldset>
+<!--tipo name-->
+	<br>
+	<label> Fruta preferida</label>
+	<select name="curso">
+		<option value="fruta" ></option> 
+		<option value="fruta" >Pera </option> 
+		<option value="fruta" >Uva</option> 
+		<option value="fruta" >Morango </option> 
+		</select>
+<!--tipo data-->
+	<label> Data de nascimento:
+		<input type="date" name="datanasci">
+	</label>
+	<!--tipo email-->
+	<label> E-mail:
+		<input type="email" name="email" placeholder="Digite seu email">
+	</label>
+<!--tipo text area-->
+	<div>
+		<label>Comentário</label>
+		<textarea name="comentario" rows="10"> </textarea>
+		</label>
+		</div>
+		<br>
+<!--tipo number-->
+	<div>
+	<label> Idade:
+		<input type="number" name="idade" start="1" value="0" min="1" max="150">
+<!--tipo tex-->
+	<label> Nome:
+		<input type="text" name="nome" placeholder="Digite seu nome completo">
+	</label>
+</body>
+</html>

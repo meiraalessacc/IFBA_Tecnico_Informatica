@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;/* o tamanho dos ekementos incluirá no seu calculo até a borda*/
+}
+
+header{
+	background-color:pink;
+	height:150px;
+	display:flex; /*altero o elemneto pai (contenier) para o modelo de visualização FLEX <layout flexivel), e esta alteração afeta os elementos inseridos dentro dele.   FLEX ITENS - filhos do container*/
+}
+header h1{
+	display:
+}
+nav {
+	background-color:orange;
+}
+nav ul {
+	display:flex; /*container*/
+	list-style:nome; /*retirando os marcadores da lista*/
+	width:700px;
+	justify-content:space-around; /*distribuir os elementos atraves do eixo principal.  Flex start - inicio da tela.  space-around : distribuir elementos atraves do eixo principal;*/
+	align-items:center/*distribuir os elementos nas  propiedades no eixo adjacente*/
+}
+main{
+	background-color:teal;
+}
+aside{
+	background-color:tan;
+}
+section{
+	background-color:DarkSlateBluey;
+}
+article{
+	background-color:Violet;
+}
+footer{
+	background-color:blue;
+}
+/*
+header ->topo da pagina
+nav -> menu ou area de navegação
+main -> conteudo principal
+aside -> conteudo complementar ou lateral
+section -> sessão da página (uma página pode ser dividida em varias sessões)
+article ->artigod (divide um conteúdos diferentes pertencentes a uma sessão)
+footer->rodape da imagem*/

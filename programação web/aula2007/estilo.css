@@ -1,0 +1,27 @@
+body{background-color:DarkKhaki;}
+table{
+	border-collapse:collapse;
+}
+table td, table th{
+	border:2px solid black;
+}
+tbody tr:nth-child(odd){
+	background-color:DarkOliveGreen;
+text-align:center;
+}
+tbody td:nth-child(odd){
+	background-color:Olive;
+text-align:center;
+}
+thead{
+	text-align:center;
+	background-color:YellowGreen;
+}
+tfoot{
+	text-align:center;
+	background-color:YellowGreen;
+	text-align:height;
+}
+th{
+	background-color:Green;
+}

@@ -1,0 +1,17 @@
+body{
+	background-color:Silver;
+}
+#conteudo {
+	width:50px;
+	Height:50px;
+	border:35px;
+	margin:20px;
+	padding:5%;
+	background-color:white;
+}
+.titulo{
+	color:white;
+	text-shadow: 0.2em 0.5em 0.1em pink,
+      -0.3em 0.1em 0.1em red;
+
+}

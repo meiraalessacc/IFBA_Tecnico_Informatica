@@ -1,0 +1,49 @@
+body{
+	background-color:white;
+}
+.exemplo1{
+	border:2px solid green;
+	width:300px;
+	height:200px;
+	
+	display:flex;/*habilita*/
+	justify-content: space-between;/*eixo principal*/
+	align-items: center;
+
+}
+.exemplo1 div{
+	border:1px solid blue;
+	width:50px;
+	height:50px;
+}
+.exemplo2{
+	border:2px solid red;
+	width:200px;
+	height:300px;
+	
+	display:flex;/*habilita*/
+	justify-content: space-around;/*eixo principal*/
+	align-items: center;
+	flex-direction:column;
+
+}
+.exemplo2 div{
+	border:1px solid blue;
+	width:100px;
+	height:50px;
+}
+.exemplo3{
+	border:2px solid green;
+	width:300px;
+	height:200px;
+	display:flex;/*habilita*/
+	align-items: center;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap:wrap;
+}
+.exemplo3 div{
+	border:1px solid pink;
+	width:100px;
+	height:75px;
+}

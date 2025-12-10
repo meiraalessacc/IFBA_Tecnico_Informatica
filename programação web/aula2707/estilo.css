@@ -1,0 +1,16 @@
+body{background-color:Moccasin;
+}
+label{
+	background-color:SandyBrown;
+}
+
+h1{
+	font-family:'Square Peg', cursive;
+	font-size:79px;
+	text-align:center;
+	background-color: SandyBrown; width: 300px; 
+	padding-left: 15px;
+	box-shadow: 10px 10px 0 Chocolate;
+	-webkit-box-shadow: 15px 5px Chocolate;
+	-moz-box-shadow: 75px 5px 0 Chocolate;
+}

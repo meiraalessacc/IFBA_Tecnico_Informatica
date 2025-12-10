@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link href="estilo.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+   <h1>Formulário</h1>
+   <form action="arquivo.php" method="POST">
+	<div>
+	<br>
+	<label> Nome:
+		<input type="text" name="nome" placeholder="Digite seu nome completo">
+	</label>
+	<br>
+	<br>
+	<label> E-mail:
+		<input type="email" name="email" placeholder="Digite seu email">
+	</label>
+	<br>
+	<br>
+	<label> Idade:
+		<input type="number" name="idade" start="1" value="0" min="1" max="150">
+	</label>
+	<br>
+	<br>
+	<label> Data de nascimento:
+		<input type="date" name="datanasci">
+	</label>
+	<br>
+	<br>
+	<label> Altura:
+		<input type="number" name="altura" start="0.1" value="0.1" min="0.2" max="2.90">
+	</label>
+	<br>
+	<br>
+	<label> Peso:
+		<input type="range" name="peso" value="0" min="5" max="150" step="1">
+	</label>
+	<br>
+	<br>
+	<label> senha:
+		<input type="password" name="senha" maxlength="9">
+	</label>
+	<br>
+	<br>
+<div>
+<fieldset>
+<legend>Genero:</legend>
+		<input type="radio" name="sexo" value="Masculino" id="sexomasc">
+		<label for="sexomasc"> Masculino </label>
+		
+		<input type="radio" name="sexo" value="Feminino" id="sexofem">
+		<label for="sexofem"> Feminino </label>
+		<input type="radio" name="sexo" value="nao binario" id="Não Binario" checked>
+		<label for="outro"> Não binario</label>
+		
+</fieldset>
+	<fieldset> <legend> Disciplinas Selecionadas: </legend>
+	<label>
+	<input type="checkbox" value="matematica" name="diciplinas">
+	Matematica
+	</label>
+	<label>
+	<input type="checkbox" value="portugues" name="diciplinas">
+	Portugues
+	</label>
+	<label>
+	<input type="checkbox" value="geografia" name="diciplinas">
+	Geografia
+	</label>
+	<label>
+	<input type="checkbox" value="nenhuma" name="diciplinas">
+	Não gosta de materia nenhuma
+	</label>
+	</fieldset>
+	</fieldset>
+	<div>
+	<br>
+	<label>
+	<label> Cursos</label>
+	<select name="curso">
+		<option value="vazio" name="diciplinas"> </option> 
+		<option value="edificações" name="diciplinas"> Tecnico em Edificações(os predreiros)</option> 
+		<option value="informatica" name="diciplinas"> Tecnico em Informática(os mais lindo e sofredores)</option> 
+		<option value="mineração" name="diciplinas"> Tecnico em mineração(os esquecidos)</option> 
+	</select>
+	</div>
+	<div>
+	<br>
+	<label>
+	<label> Fruta preferida</label>
+	<select name="curso">
+		<option value="fruta" ></option> 
+		<option value="fruta" >Pera </option> 
+		<option value="fruta" >Uva</option> 
+		<option value="fruta" >Morango </option> 
+		</select>
+	</div>
+	<div>
+	<br>
+	<label> Escola:
+		<input type="text" name="escola" list="opcaoescola">
+		<datalist id="opcaoescola">
+			<option value="IFBA">
+			<option value="CEB">
+			<option value="GV">
+		</datalist>
+		</label>
+	</div>
+	<br>
+	<div>
+		<label>Comentário</label>
+		<textarea name="comentario" rows="10"> </textarea>
+		</label>
+		</div>
+		<br>
+	<div>
+	<button type="submit"> Enviar</button>
+	<button type="resert"> Apagar formulário</button>
+  </body>
+</html>

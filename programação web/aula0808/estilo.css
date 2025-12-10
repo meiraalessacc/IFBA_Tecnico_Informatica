@@ -1,0 +1,24 @@
+#fundo1{
+	width:1850px;
+	height:1850px;
+	border: 6px solid green;
+	background-image: url('imagens/imagem8.png'),url('imagens/imagem5.jpg');
+	background-size:coutain;
+}
+h1{
+	text-align:center;
+	font-family: 'Inspiration', cursive;
+	font-size:59px;
+}
+h2{
+	color:white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:39px;
+	text-align:center;
+}
+h3{
+	color:SeaGreen;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:39px;
+	text-align:center;
+}
